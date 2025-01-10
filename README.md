@@ -19,10 +19,6 @@ _Before_running_scripts_
 You will need to check that all packages are installed. All the packages that need to be installed are named in the code at the start of each script which says "library(packagename)". You will need to install all packages by entering "install.packages("packagename")" into the console.
 You will need to define the repositories by going to the part of the code that says:
 
-#####################
-
 #Define repositories#
-
-#####################
 
 and replacing underneath the file paths with the path to the repository where you store your data, and the repository where you want the graphs to be saved to.
