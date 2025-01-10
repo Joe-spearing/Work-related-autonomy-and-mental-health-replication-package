@@ -2,7 +2,12 @@ rm(list=ls())
 library(haven)
 
 #load indresp 2,4,6,8,10
-setwd('C:\\Users\\zvh514\\OneDrive - University of York\\Documents\\Data\\understanding_society\\ukhls')
+#####################
+#Define repositories#
+#####################
+data.repository<-'C:\\Users\\zvh514\\OneDrive - University of York\\Documents\\Autonomy_and_mental_health\\data'
+setwd(data.repository)
+
 letters<-c('a','b','c','d','e','f','g','h','i','j')
 for (val in seq(from=1,to=10,by=1)){
   
@@ -248,7 +253,5 @@ colnames(pers.vars)<-c('agreeableness','conscientiousness','extraversion',
                        'neuroticism','openness')
 
 full.data.set<-as.data.frame(cbind(full.data.set,pers.vars))
-
-setwd('C:\\Users\\zvh514\\OneDrive - University of York\\Documents\\Autonomy_and_mental_health\\data')
 
 write.csv(full.data.set,'autonomy_mh_data_set.CSV')
