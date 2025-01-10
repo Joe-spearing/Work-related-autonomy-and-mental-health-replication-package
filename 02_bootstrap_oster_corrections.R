@@ -2,6 +2,13 @@ rm(list=ls())
 library(plm)
 set.seed(811072144)
 
+#####################
+#Define repositories#
+#####################
+
+data.repository<-'C:\\Users\\zvh514\\OneDrive - University of York\\Documents\\Autonomy_and_mental_health\\data'
+setwd(data.repository)
+
 my_plm<-function(y,x,z,fe,data){
   
   y.aggregated<-aggregate(data[,y]~data[,fe],FUN=mean)
