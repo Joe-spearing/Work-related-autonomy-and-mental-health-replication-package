@@ -3,7 +3,7 @@ Replicates the results in "work-related autonomy and mental health"
 
 _Data_
 
-Understanding Society (UKHLS) data can be downloaded from the UK data service: https://ukdataservice.ac.uk/find-data/. You will need study number 6614. 
+Understanding Society (UKHLS) data can be downloaded from the UK data service: https://ukdataservice.ac.uk/find-data/. You will need study number 6614. Download the files as SAV files.
 
 O*NET data are available at: https://www.onetcenter.org/db_releases.html. I used the August 2018 vintage Work Context File.
 
@@ -20,7 +20,9 @@ You will need to check that all packages are installed. All the packages that ne
 You will need to define the repositories by going to the part of the code that says:
 
 #####################
+
 #Define repositories#
+
 #####################
 
 and replacing underneath the file paths with the path to the repository where you store your data, and the repository where you want the graphs to be saved to.
