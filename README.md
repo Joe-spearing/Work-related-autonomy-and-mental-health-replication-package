@@ -3,7 +3,8 @@ Replicates the results in "work-related autonomy and mental health"
 
 _Data_
 
-Understanding Society (UKHLS) data can be downloaded from the UK data service: https://ukdataservice.ac.uk/find-data/
+Understanding Society (UKHLS) data can be downloaded from the UK data service: https://ukdataservice.ac.uk/find-data/. You will need study number 6614. 
+
 O*NET data are available at: https://www.onetcenter.org/db_releases.html. I used the August 2018 vintage Work Context File.
 
 _R_scripts_
